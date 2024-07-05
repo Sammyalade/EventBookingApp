@@ -9,8 +9,8 @@ import lombok.Setter;
 @Setter
 @Getter
 public class GuestResponse {
-    private String firstName;
-    private String lastName;
+    private Long id;
+    private String name;
     private String email;
     private String phone;
     private String address;
@@ -19,5 +19,5 @@ public class GuestResponse {
     private String country;
     private String attendeeName;
     private String organizerName;
-    private EventRequest event;
+    private String eventName;
 }

@@ -12,8 +12,7 @@ public class Guest {
     @Id
     @GeneratedValue
     private Long id;
-    private String firstName;
-    private String lastName;
+    private String name;
     private String email;
     private String phone;
     private String address;

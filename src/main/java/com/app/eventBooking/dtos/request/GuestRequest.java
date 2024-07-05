@@ -10,15 +10,14 @@ import lombok.Setter;
 @Getter
 public class GuestRequest {
     private Long id;
-    private String firstName;
-    private String lastName;
+    private String name;
     private String email;
     private String phone;
     private String address;
     private String city;
     private String state;
     private String country;
-    private AttendeeRequest primaryAttendee;
-    private OrganizerRequest addedByOrganizer;
-    private EventRequest event;
+    private Long primaryAttendeeId;
+    private Long addedByOrganizerId;
+    private Long eventId;
 }
